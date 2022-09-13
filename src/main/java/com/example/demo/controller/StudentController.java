@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins="https://localhost:3000")
 public class StudentController {
     List<Student> students = new ArrayList<>(
             Arrays.asList(
